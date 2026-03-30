@@ -8,8 +8,7 @@
     "build": "tsc",
     "clean": "rm -rf dist",
     "prepublishOnly": "npm run build",
-    "test": "jest --testPathPattern=smoke.test.ts",
-    "test:all": "jest",
+    "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"
   },
